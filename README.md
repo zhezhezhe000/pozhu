@@ -46,7 +46,7 @@
 ├─icon                        # 用到的icon
 ├─Server                      # 服务文件夹
 │  └─browsermob-proxy-2.1.4     
-│  └─jre1.8.0_391   		  # java环境
+│  └─jre1.8.0_391   		      # java环境
 ├─UI                          # 各种UI文件
 ├─config.json                 # 默认配置文件
 ├─main.py                     # 主文件，运行即可启动
