@@ -1,4 +1,4 @@
-# 破竹【`unstoppable Break Through`】
+# 破竹【unstoppable Break Through】
 
 > **目前版本：V1.6**
 
