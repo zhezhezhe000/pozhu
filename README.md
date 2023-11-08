@@ -140,7 +140,7 @@ browsermob-proxy-2.1.4外部库
 
 ## 案例测试
 
-<video controls="controls" src="assets/20231107_161320-20231107164420-4g9767z.mp4" data-src="assets/20231107_161320-20231107164420-4g9767z.mp4"></video>
+[![Video]](assets/20231107_161320-20231107164420-4g9767z.mp4)
 
 ## 项目日志
 
