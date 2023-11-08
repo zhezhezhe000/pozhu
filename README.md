@@ -45,7 +45,8 @@
 ├─Function                    # 逻辑方法文件夹
 ├─icon                        # 用到的icon
 ├─Server                      # 服务文件夹
-│  └─browsermob-proxy-2.1.4             
+│  └─browsermob-proxy-2.1.4     
+│  └─jre1.8.0_391   		  # java环境
 ├─UI                          # 各种UI文件
 ├─config.json                 # 默认配置文件
 ├─main.py                     # 主文件，运行即可启动
@@ -56,7 +57,7 @@
 ## 必要运行环境（必看）
 
 ```
-java1.8              --> 为browsermob-proxy提供环境，用来监控爆破流量
+java1.8              --> 为browsermob-proxy提供环境，用来监控爆破流量（项目中已集成jre1.8）
 python3.8.10         --> 开发环境，未测试其他版本，建议版本为  3.8.1 <= python <= 3.9
 chrome浏览器          --> 本项目基于chromedriver服务运行，必须安装
 ```
@@ -109,6 +110,8 @@ browsermob-proxy-2.1.4外部库
 3. 如果**启用代理**，则必须设置代理地址，browsermob-proxy不会启用，可以和burp联动
 4. 如果**未设置代理**，则默认启动browsermob-proxy监控爆破流量
 5. 字典中的从**列表添加**，会默认加载所有Dict目录下的txt文件，可以自己选择
+6. 如果网页打开错误，可以使用**备用模式**手动输入xpath来爆破
+7. 目前仅对windows做了java自动配置，linux需要自己配置
 
 ## 测试web页面
 
