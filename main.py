@@ -1,4 +1,4 @@
-import sys, json
+import sys, os
 from PySide6.QtWidgets import QApplication, QMessageBox, QDialog
 from PySide6.QtCore import QThread, Signal
 from PySide6.QtGui import QIcon
@@ -11,6 +11,9 @@ from UI.statement_ui import Ui_Dialog
 
 # 加载json文件
 config = load_config()
+# 设置jre环境变量
+os.environ["JAVACMD"] = r".\Server\jre1.8.0_391\bin\java"
+
 
 class Statement(QDialog, Ui_Dialog):
     """ 声明 """
@@ -65,9 +68,9 @@ class Main():
 
     def __set_web_service(self, status):
         """ 设置web服务/驱动状态 """
-        if status == "network error":
+        if status == "Network Error":
             message_box(status, "网络异常，请检查网络状况\n关掉代理，重启应用！", QMessageBox.Critical)
-        elif status == "chrome error":
+        elif status == "Chrome Error":
             message_box(status, "请检查一下是否安装Chrome浏览器！", QMessageBox.Critical)
         elif status == "success":
             # 设置标志位为真并保存
