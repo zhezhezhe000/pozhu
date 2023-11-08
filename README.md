@@ -85,15 +85,15 @@ browsermob-proxy-2.1.4外部库
 
 　　**推荐使用虚拟环境venv**
 
-　　**创建虚拟环境：** ​`python -m venv venv`​
+　　**创建虚拟环境：**  ​`python -m venv venv`​
 
-　　**进入虚拟环境：**​ `venv\Scripts\activate`​
+　　**进入虚拟环境：** ​ `venv\Scripts\activate`​
 
-　　**升级pip版本：**​ `python -m pip install --upgrade pip`​
+　　**升级pip版本：** `python -m pip install --upgrade pip`​
 
-　　**安装依赖：**​ `python -m pip install -r requirements.txt`​
+　　**安装依赖：** ​ `python -m pip install -r requirements.txt`​
 
-　　**运行：**​ `python main.py`​
+　　**运行：** ​ `python main.py`​
 
 　　​​![image](assets/image-20231107154840-xt2j0fy.png)​
 
