@@ -65,9 +65,9 @@ class Main():
 
     def __set_web_service(self, status):
         """ 设置web服务/驱动状态 """
-        if status == "network error":
+        if status == "Network Error":
             message_box(status, "网络异常，请检查网络状况\n关掉代理，重启应用！", QMessageBox.Critical)
-        elif status == "chrome error":
+        elif status == "Chrome Error":
             message_box(status, "请检查一下是否安装Chrome浏览器！", QMessageBox.Critical)
         elif status == "success":
             # 设置标志位为真并保存
