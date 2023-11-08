@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+</head>
+<body>
+    <h1>Login</h1>
+
+    {% if error %}
+        <p style="color: red;">{{ error }}</p>
+    {% endif %}
+
+    <form action="/login" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br>
+
+        <label for="captcha">Enter the code below:</label><br>
+        <img src="data:image/png;base64,{{ captcha|safe }}" alt="Captcha"><br>
+        <input type="text" id="captcha" name="captcha" required><br>
+
+        <input type="submit" value="Login">
+    </form>
+</body>
+</html>

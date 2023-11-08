@@ -1,0 +1,12 @@
+pyside6==6.5.3
+pyperclip==1.8.2
+selenium==4.14.0
+webdriver-manager==4.0.1
+browsermob-proxy==0.8.0
+pathvalidate==3.2.0
+ddddocr==1.4.8
+coloredlogs==15.0.1
+
+# 测试web使用
+captcha
+flask
