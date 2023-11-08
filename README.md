@@ -39,15 +39,15 @@
 ## 目录结构
 
 ```
-├─assets						# README.md图片
-├─demo							# 测试web页面
-├─Dict							# 字典目录
+├─assets						            # README.md图片
+├─demo							            # 测试web页面
+├─Dict							            # 字典目录
 ├─Function                      # 逻辑方法文件夹
-├─icon							# 用到的icon
+├─icon							            # 用到的icon
 ├─Server                        # 服务文件夹
 │  └─browsermob-proxy-2.1.4             
 ├─UI                            # 各种UI文件
-├─config.json					# 默认配置文件
+├─config.json					          # 默认配置文件
 ├─main.py                       # 主文件，运行即可启动
 ├─README.md
 └─requirements.txt              # 依赖文件
@@ -58,7 +58,7 @@
 ```
 java1.8         --> 为browsermob-proxy提供环境，用来监控爆破流量
 python3.8.10    --> 开发环境，未测试其他版本，建议版本为  3.8.1 <= python <= 3.9
-chrome浏览器		--> 本项目基于chromedriver服务运行，必须安装
+chrome浏览器		  --> 本项目基于chromedriver服务运行，必须安装
 ```
 
 ## 所需服务（必看）
