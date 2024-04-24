@@ -1,6 +1,7 @@
 # 破竹【unstoppable Break Through】
 
 > **目前版本：V1.6**
+> 
 > PS: 作者比较懒，如果有bug，请提issues（特殊情况：懒得修/不会修）:)
 
 ## 免责声明
